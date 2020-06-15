@@ -76,6 +76,11 @@ function main() {
     starTrekQ.enqueue('Sulu')
     starTrekQ.enqueue('Checkov')
 
+    // remove Spock from the queue
+    starTrekQ.dequeue()
+    starTrekQ.dequeue()
+
+
     // console.log(JSON.stringify(starTrekQ))
     console.log(peek(starTrekQ))
     console.log(isEmpty(starTrekQ))
